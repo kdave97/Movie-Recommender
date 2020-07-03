@@ -4,7 +4,7 @@
 The preoject involves building a movie recommender system. There are two types of filtering techniques i.e Content Based and Collaborative based Filtering system used in Recommender System. The project involves building both the models and deploying them on AWS using Flask web framework.
 
 ## DATASET
-The Dataset is collected from Grouplens which has collected and made available rating datasets from [MovieLens](http://movielens.org), a movie recommendation service. This dataset (ml-latest) describes 5-star rating and free-text tagging activity which contains 22884377 ratings across 34208 movies. These data were created by 247753 users between January 09, 1995 and January 29, 2016.
+The Dataset is collected from Grouplens which has collected and made available rating datasets from [MovieLens](http://movielens.org), a movie recommendation service. This dataset (ml-latest) describes 5-star rating and free-text tagging activity which contains <b> 22884377 ratings </b> across <b>34208 movies.</b> These data were created by 247753 users between January 09, 1995 and January 29, 2016.
 
 The data are contained in four files, `links.csv`, `movies.csv`, `ratings.csv` and `tags.csv`. However for this project, we will be using only 'movies.csv' and 'ratings.csv'.
 
@@ -27,6 +27,7 @@ To get recommendations, following steps were performed:
 * Based on the user's interest, build a user profile.
 * Get top 5 movies based on the highest scores.
 
+Check out the <b>Content Based Recommendation System.ipynb.</b>
 
 ### Collaborative-Based Recommender Model 
 A collaborative based recommender model works on the principle of taking in account of other user's opinions and preferences based on user's interests. It attempts to find users that have similar preferences and opinions as the input and then recommends items that they have liked to the input. For eg: A user gives high rating to a particular movie. It finds the users who have similar kind of opinions as user and suggest movies based on his interests. Basically, it means if You like what I like the I may like what you like. 
@@ -39,5 +40,12 @@ To get recommendations, following steps were performed:
 * Get the watched movie record of the user for each neighbour.
 * Calculate a similarity score using some formula
 * Recommend top 5 items with the highest score
+
+Check out the <b>Collaborative Based Filtering System.ipynb.</b>
+
+## Deployment
+Your end users don't want to see your Jupyter Notebooks. You need to have a way to deploy your models using a web framework so it makes them easy to use and accessible from anywhere. For this project, the content based recommender model has been deployed on AWS using Flask web framework. 
+
+Flask Web Framework - It is one of the best web framework to deploy your models as it has variety of choices for developing applications and support of tools and libraries.
 
 
