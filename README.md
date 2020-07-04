@@ -48,4 +48,5 @@ Your end users don't want to see your Jupyter Notebooks. You need to have a way 
 
 Flask Web Framework - It is one of the best web framework to deploy your models as it has variety of choices for developing applications and support of tools and libraries.
 
+To run the Flask application, add the dataset files to the FLASK folder. On the terminal, type python app.py. It will take few seconds to launch. Once it indicates that it is running, enter localhost:8080 in web browser.
 
