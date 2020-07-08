@@ -50,3 +50,6 @@ Flask Web Framework - It is one of the best web framework to deploy your models 
 
 To run the Flask application, add the dataset files to the FLASK folder. On the terminal, type python app.py. It will take few seconds to launch. Once it indicates that it is running, enter localhost:8080 in web browser.
 
+![alt text](https://github.com/kdave97/Movie-Recommender/blob/master/FLASK/app_images/movie.PNG)
+
+![alt text](https://github.com/kdave97/Movie-Recommender/blob/master/FLASK/app_images/movie_2.PNG)
