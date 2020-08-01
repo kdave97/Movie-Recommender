@@ -44,7 +44,7 @@ To get recommendations, following steps were performed:
 Check out the <b>Collaborative Based Filtering System.ipynb.</b>
 
 ## Deployment
-Your end users don't want to see your Jupyter Notebooks. You need to have a way to deploy your models using a web framework so it makes them easy to use and accessible from anywhere. For this project, the content based recommender model has been deployed on AWS using Flask web framework. 
+Your end users don't want to see your Jupyter Notebooks. You need to have a way to deploy your models using a web framework so it makes them easy to use and accessible from anywhere. For this project, the content based recommender model has been <b> deployed on AWS using Flask web framework. </b>
 
 Flask Web Framework - It is one of the best web framework to deploy your models as it has variety of choices for developing applications and support of tools and libraries.
 
